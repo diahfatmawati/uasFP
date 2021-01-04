@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Love Math</string>
+    <string name="design">design by Diah Fatmawati</string>
+    <string name="intro">Mari Mengenal dan Mencintai Bangun</string>
+    <string name="jargon">Matematika itu Mudah, Asalkan tidak Letih dalam Berlatih</string>
+    <string name="btnHome">BERANDA</string>
+    <string name="btnBeranda0">BANGUN</string>
+    <string name="btnBeranda">BANGUN DATAR</string>
+    <string name="btnBeranda1">BANGUN RUANG</string>
+    <string name="definisi">What is the Plane Figures ?!</string>
+    <string name="definisi0">Plane Figures atau Bangun datar merupakan sebutan untuk bangun-bangun dua dimensi yang memiliki keliling dan luas, tetapi tidak memiliki isi (volume). Bangun datar merupakan sebuah bidang datar yang dibatasi oleh garis lurus ataupun garis lengkung. Jenis bangun datar bermacam-macam, antara lain persegi, persegi panjang, segitiga, jajar genjang, trapesium, layang-layang, belah ketupat, dan lingkaran.</string>
+    <string name="definisi1">What is the Solid Figures ?!</string>
+    <string name="definisi01">Solid Figures atau Bangun ruang merupakan suatu bangun tiga dimensi yang memiliki ruang atau volume atau isi dan juga sisi-sisi yang membatasinya. Secara garis besar, bangun ruang bisa kita kategorikan menjadi dua kelompok, antara lain bangun ruang sisi datar dan bangun ruang sisi lengkung. Yang termasuk dalam bangun ruang sisi datar yaitu kubus, balok, prisma, dan limas. Sementara untuk bangun ruang sisi lengkung terdiri atas kerucut, tabung, dan bola.</string>
+    <string name="allAboutBangun">All About Bangun</string>
+    <string name="soal">Contoh Soal dan Penyelesaiannya</string>
+</resources>

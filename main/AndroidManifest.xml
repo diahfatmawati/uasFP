@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.uas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <!-- aktivitas kedelapan saat aplikasi di operasikan, Halaman All About Bangun Datar -->
+        <activity
+            android:name=".DetailBangunRuang"
+            android:parentActivityName=".MainActivity2">
+        </activity>
+        <!-- aktivitas ketujuh saat aplikasi di operasikan, Halaman All About Bangun Datar -->
+        <activity
+            android:name=".DetailBangunDatar"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <!-- aktivitas keenam saat aplikasi di operasikan, Halaman Bangun Ruang -->
+        <activity
+            android:name=".MainActivity2"
+            android:parentActivityName=".ActivityRuang">
+        </activity>
+        <!-- aktivitas kelima saat aplikasi di operasikan, Halaman Bangun Datar -->
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".ActivityDatar" />
+        <!-- aktivitas keempat saat aplikasi di operasikan, Halaman Definisi Bangun Ruang -->
+        <activity
+            android:name=".ActivityRuang"
+            android:parentActivityName=".ActivityBeranda" />
+        <!-- aktivitas ketiga saat aplikasi di operasikan, Halaman Definisi Bangun Datar -->
+        <activity
+            android:name=".ActivityDatar"
+            android:parentActivityName=".ActivityBeranda" />
+        <!-- aktivitas kedua saat aplikasi di operasikan, Halaman Beranda -->
+        <activity
+            android:name=".ActivityBeranda"
+            android:parentActivityName=".ActivityHome" />
+        <!-- aktivitas pertama saat aplikasi di operasikan -->
+        <activity
+            android:name=".ActivityHome"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

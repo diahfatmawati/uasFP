@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beranda"
+    tools:context=".ActivityBeranda">
+
+<!-- menampilkan tombol Bangun Datar untuk ke activitas selanjutnya-->
+    <Button
+        android:id="@+id/bDatar"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/btnBeranda"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteY="500dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+<!-- menampilkan tombol Bangun Ruang untuk ke activitas selanjutnya-->
+    <Button
+        android:id="@+id/bRuang"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/btnBeranda1"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteY="500dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>
